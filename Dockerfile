@@ -25,5 +25,6 @@ RUN conda install -c conda-forge --quiet --yes \
     fix-permissions /srv/nbgrader/exchange
 
 COPY global_nbgrader_config.py /etc/jupyter/nbgrader_config.py
+COPY grader_nbgrader_config.py /home/jovyan/.jupyter/nbgrader_config.py
 
 USER jovyan

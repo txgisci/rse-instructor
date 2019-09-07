@@ -7,8 +7,8 @@
 
 c = get_config()
 # Change the following to match the course for which you are grading (i.e., replace rse with the actual course name)
-c.Exchange.course_id = "rse" # From line 17
-c.CourseDirectory.root = '/home/chikaj/rse' # From line 154
+c.Exchange.course_id = "rse" # From line 20
+c.CourseDirectory.root = '/home/chikaj/rse' # From line 156
 c.CourseDirectory.course_id = 'rse'
 
 ###############################################################################
